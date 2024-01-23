@@ -93,21 +93,22 @@ section {
 .container {
   color: #ffeb99;
   position: relative;
-  width: clamp(100px, 24vw, 15vw);
+  width: clamp(100px, 12vw, 24vw);
   height: clamp(60px, 7vw, 15vw);
   border: 2px solid #6e4619;
   transition: 0.5s;
 }
 .container:hover {
   border: 2px solid #ffeb99;
+  width: clamp(120px, 15vw, 24vw);
 }
 .container .next,
 .container .prev {
   position: absolute;
   top: 50%;
   display: block;
-  width: 12px;
-  height: 12px;
+  width: 2vw;
+  height: 2vw;
   z-index: 1;
   cursor: pointer;
   opacity: 0;
@@ -115,8 +116,8 @@ section {
 }
 .container .next {
   right: 30px;
-  border-top: 2px solid #ffeb99;
-  border-left: 2px solid #ffeb99;
+  border-top: 0.5vw solid #ffeb99;
+  border-left: 0.5vw solid #ffeb99;
   transform: translateY(-50%) rotate(135deg);
 }
 .container:hover .next {
@@ -125,8 +126,8 @@ section {
 }
 .container .prev {
   left: 30px;
-  border-top: 2px solid #ffeb99;
-  border-left: 2px solid #ffeb99;
+  border-top: 0.5vw solid #ffeb99;
+  border-left: 0.5vw solid #ffeb99;
   transform: translateY(-50%) rotate(315deg);
 }
 .container:hover .prev {
@@ -169,6 +170,7 @@ section {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  font-size: 2vw;
 }
 
 .anim-pulse {
