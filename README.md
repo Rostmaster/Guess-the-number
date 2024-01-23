@@ -11,14 +11,14 @@ Welcome to the "Guess the Number" game! Can you guess the secret number chosen b
 ## Game Features 🚀
 
 - **Lives:** You start with a certain number of lives. Be careful, as incorrect guesses will reduce your lives.
-- **Highscore:** The game keeps track of the highest score achieved.
+- **Highscore:** The game keeps track of your highest score achieved.
 - **Color-coded States:** The game provides color-coded feedback for win and lose states.
 
 ## Color Codes 🌈
 
 - **Correct Guess:** Green ✅
-- **Incorrect Guess (Too High or Too Low):** Red ❌
-- **Game Over (Out of Lives):** Yellow ⚠️
+- **Game process (Guessing):** Yellow ❌
+- **Game Over (Out of Lives):** Red ❌
 
 ## Technologies Used 🛠️
 
@@ -31,4 +31,4 @@ Welcome to the "Guess the Number" game! Can you guess the secret number chosen b
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/guess-the-number.git
+   git clone https://github.com/Rostmaster/Guess-the-number
