@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://img.icons8.com/?size=80&amp;id=114904&amp;format=png" type="image/x-icon">
+    <script src="./js/script.js" defer> </script>
+    <title>Guess the number</title>
+  </head>
+  <body> </body>
+  <div class="wrapper"></div>
+  <section class="head" id="head">
+    <div id="header">Guess my number !</div>
+    <div id="button" onClick="again()">?</div>
+  </section>
+  <section class="main">
+    <div id="lives">Lives: 20</div>
+    <div class="controls"></div>
+    <div class="container">
+      <div class="next" onClick="nextNum()"></div>
+      <div class="prev" onClick="prevNum()"></div>
+      <div class="div" id="box"></div><span> </span>
+    </div>
+    <div class="submit" onClick="check()"> 
+      <div class="txt">Check</div>
+    </div>
+    <div id="higscore">High Score:__</div>
+  </section>
+</html>
