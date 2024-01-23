@@ -152,6 +152,7 @@ section {
   transform: translateY(-clamp(10px, 3.3vw, 15vw));
 }
 #box span:nth-child(1) {
+  justify-self: center;
   display: initial;
 }
 
@@ -193,5 +194,5 @@ section {
 }
 
 #lives {
-  margin-top: 50px;
+  margin-top: 100px;
 }/*# sourceMappingURL=style.css.map */

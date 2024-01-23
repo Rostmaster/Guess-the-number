@@ -163,6 +163,7 @@ section{
   transform: translateY(-clamp(10px, 3.3vw, 15vw));
     
   &:nth-child(1){
+    justify-self: center;
     display:initial;
   }
 }}
@@ -208,5 +209,5 @@ section{
   font-size: clamp(10px, 1.4vw, 15vw);
 }
 #lives{
-  margin-top: 50px;
+  margin-top: 100px;
 }
