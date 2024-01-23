@@ -17,7 +17,7 @@ Welcome to the "Guess the Number" game! Can you guess the secret number chosen b
 ## Color Codes 🌈
 
 - **Correct Guess:** Green ✅
-- **Game process (Guessing):** Yellow ❌
+- **Game process (Guessing):** Yellow ⚠️
 - **Game Over (Out of Lives):** Red ❌
 
 ## Technologies Used 🛠️
